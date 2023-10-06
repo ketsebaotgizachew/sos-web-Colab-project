@@ -78,7 +78,7 @@ body {
   width: 900px;
   padding-top: 2vh;
   height: 300px;
-  margin-left: 40%;
+  margin-left: 44%;
   transform: translate(-50%);
   background-color: transparent;
 }
@@ -223,7 +223,7 @@ body {
   margin-top: 64px;
 }
 .footer .links {
-  margin-top: -16vh;
+  margin-top: -28vh;
   margin-left: 35vw;
   width: 1201px;
   height: 100px;
@@ -248,7 +248,7 @@ body {
   border: none;
   margin: 0;
   padding: 0;
-  height: 100px;
+  height: 50px;
 }
 .footer .links div a {
   margin-left: 50px;
@@ -258,7 +258,7 @@ body {
   text-decoration: none;
   color: #fff;
   font-family: Arial;
-  font-size: 20px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
