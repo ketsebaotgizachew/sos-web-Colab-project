@@ -12,7 +12,7 @@ body {
   /* Chrome, Edge and Safari */
   *::-webkit-scrollbar {
     height: 10px;
-    width: 20px;
+    width: 10px;
   }
   *::-webkit-scrollbar-track {
     border-radius: 5px;
@@ -60,32 +60,31 @@ body {
     height: 8vh;
     background-color: transparent;
     .logo {
-        margin-top: -5px;
-        margin-left: 100px;
+        margin-top: 0vh;
+        margin-left: 7vw;
         font-family: Arial;
-        font-size: 25px;
+        font-size: 15px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
         color: white;
     }
     .links {
-        margin-top: 10px;
+        margin-top: 0px;
         overflow: hidden;
         width: 900px;
-        padding-top: 30px;
+        padding-top: 2vh;
         height: 300px;
-        margin-left: calc(50% - 180px);
+        margin-left: 40%;
         transform: translate(-50%);
         background-color: transparent;
-        transition: 2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
         a {
             padding-top: 0px;
-            margin-left: 90px;
-            color: #ffffff;
+            margin-left: 50px;
+            color: white;
             font-family: Arial;
             text-decoration: none;
-            font-size: 25px;
+            font-size: 15px;
             font-style: normal;
             font-weight: 700;
             line-height: normal;
@@ -99,8 +98,8 @@ body {
     background: #2cc9ec;
     .decor_1 {
         position: absolute;
-        width: 263px;
-        height: 263px;
+        width: calc(263px /2);
+        height: calc(263px / 2);
         transform: rotate(56.795deg);
         flex-shrink: 0;
         border-radius: 33px;
@@ -114,8 +113,8 @@ body {
     }
     .decor_2 {
         position: absolute;
-        width: 500px;
-        height: 500px;
+        width: 250px;
+        height: 250px;
         transform: rotate(-25.323deg);
         flex-shrink: 0;
         border-radius: 33px;
@@ -134,22 +133,24 @@ body {
         color: #fff;
         text-align: center;
         font-family: Arial;
-        font-size: 190px;
+        font-size: 80px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
     }
     img{
         margin-top: -65px;
+        width: 200px;
+        height: 200px;
         margin-left: 50%;
         transform: translate(-58%);
     }
 }
 
 .par {
-    padding-top: 400px;
+    padding-top: 200px;
     position: absolute;
-    font-size: 45px;
+    font-size: 25px;
     width: 70vw;
     margin-left: 50%;
     font-family: Arial, Helvetica, sans-serif;
@@ -161,48 +162,50 @@ body {
     background-color: #ffffff;
     margin-top: 100vh;
     p{
-        padding-top: 50px;
+        padding-top: 20px;
     }
     span {
         padding-top: 50px;
         color: #000;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 128px;
+        font-size: 65px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
     }
 }
-.footer{
+.footer {
     position: absolute;
-    top: 900vh;
+    top: 1150vh;
     height: 58.9vh;
     width: 100vw;
     background: linear-gradient(184deg, #2cc9ec 7.64%, #007994 96.73%);
     h1 {
-        margin-left: 100px;
-        width: 500px;
+        margin-top: 5vh;
+        margin-left: 50px;
+        width: 300px;
         color: #fff;
         font-family: Arial;
-        font-size: 64px;
+        font-size: 40px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
     }
     div {
-        margin-top: 250px;
-        margin-left: 100px;
+        margin-top: 23vh;
+        margin-left: 50px;
         display: flex;
         z-index: 2;
         img{
             margin-top: 0px;
-            width: 100px;
+            width: 80px;
         }
         h2 {
-            margin-left: 30px;
+            margin-left: 18px;
             color: #fff;
             font-family: Arial;
-            font-size: 64px;
+            font-size: 35px;
+            margin-top: 2vh;
             font-style: normal;
             font-weight: 700;
             z-index: inherit;
@@ -215,10 +218,10 @@ body {
         margin-top: 64px;
     }
     .links {
-        margin-top: -35vh;
+        margin-top: -16vh;
         margin-left: 35vw;
         width: 1201px;
-        height: 250px;
+        height: 100px;
         flex-shrink: 0;
         background-color: transparent;
         display: flex;
@@ -232,7 +235,7 @@ body {
             display: flex;
             flex-direction: column;
             .wider{
-                width: 500px;
+                width: 200px;
             }
             div{
                 border: none;
@@ -242,13 +245,13 @@ body {
             }
             a {
                 margin-left: 50px;
-                font-size: 30px;
-                width: 300px;
+                font-size: 15px;
+                width: 200px;
                 color: white;
                 text-decoration: none;
                 color: #fff;
                 font-family: Arial;
-                font-size: 40px;
+                font-size: 20px;
                 font-style: normal;
                 font-weight: 700;
                 line-height: normal;

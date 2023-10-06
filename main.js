@@ -6,9 +6,9 @@ window.onload = function(){
         let links = document.getElementById("links")
         mdl.style.top = "15%"
         mdl.style.left = "-20%"
-        trc.style.top = "-37%"
-        trc.style.left = "84%"
+        trc.style.top = "-25%"
+        trc.style.left = "89%"
         links.style.marginTop = "0px"
-    }, 500);
+    }, 10);
     
 }
